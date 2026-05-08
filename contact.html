@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Contact - Sonam Yoezer's Learning Hub</title>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+   <h1>Sonam Yoezer's Learning Hub</h1>
+   <nav>
+      <ul>
+         <li><a href="home.html">Home</a></li>
+         <li><a href="services.html">Services</a></li>
+         <li><a href="contact.html">Contact</a></li>
+      </ul>
+   </nav>
+</header>
+
+<!--main content part of contact webpage-->
+<form onsubmit="return validateForm()" novalidate>
+   <!--contact form input field label for Full Name -->
+   <label for="Full Name">Full Name:</label>
+   <input id="Full Name" type="text" >
+   <!--contact form input field label for Email Address -->
+   <label for="Email Address">Email Address:</label>
+   <input id="Email Address" type="email" >
+   <!--contact form input field label for Your Message -->
+   <label for="Your Message">Your Message:</label>
+   <textarea id="Your Message" type="text" ></textarea>
+   <!--contact form submit button -->
+   <button type="submit">Submit</button> 
+   
+</form>
+<!-- contact webpage error message section -->
+<p id="error" ></p>
+<footer>
+   <p>&copy; 2026 Sonam Yoezer's Learning Hub. All rights reserved.</p>
+</footer>
+<script src="js/script.js"></script>
+
+</body>
+</html>
